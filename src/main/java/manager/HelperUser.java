@@ -1,42 +1,101 @@
 package manager;
 
+
+import model.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-
-import java.util.List;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
 
 public class HelperUser extends HelperBase {
-
-    public boolean isLogged() {
-        List<WebElement> elements = wd.findElements(By.xpath("//a[text()=' Logout ']"));
-        return elements.size() > 0;
-    }
-
     public HelperUser(WebDriver wd) {
         super(wd);
     }
 
-    public void openLoginRegistrationForm() {
-        click(By.cssSelector("a[href=\"/login?url=%2Fsearch\"]"));
+
+    public void openFormLogin() {
+        click(By.xpath("//a[text()=' Log in ']"));
     }
 
-    public void fillLoginRegistrationForm(String email, String password) {
-        type(By.cssSelector("#email"), email);
-        type(By.cssSelector("#password"), password);
+    public void fillLoginForm(String email, String password) {
+        type(By.id("email"), email);
+        type(By.id("password"), password);
     }
 
-    public void submitLogin() {
-        click(By.cssSelector("[type='submit']"));
+    public void fillLoginForm(User user) {
+        type(By.xpath("//input[@type='email']"), user.getEmail());
+        // type(By.id("email"), user.getEmail());
+        type(By.id("password"), user.getPassword());
+    }
+
+    public void submit() {
+        click(By.xpath("//button[contains(@type,'submit')]")); //button Yalla
+        // click(By.xpath("//button[@type='submit']"));
+
+    }
+
+    public String getMessage() {
+
+        return wd.findElement(By.cssSelector("div.dialog-container>h2")).getText();
+    }
+
+    public void closeDialogContainer() {
+        if (isElementPresent(By.xpath("//button[text()='Ok']"))) {
+            click(By.xpath("//button[text()='Ok']"));
+        }
+    }
+
+    public boolean isLogged() {
+        //return isElementPresent(By.xpath("//button[text()=' Logout ']"));
+        return isElementPresent(By.cssSelector("div.header a:nth-child(5)"));
     }
 
     public void logout() {
-        click(By.xpath("//a[text()=' Logout ']"));
+        // click(By.xpath("//button[text()=' Logout ']"));
+        click(By.cssSelector("div.header a:nth-child(5)"));
     }
 
+    public String getErrorText() {
+        return wd.findElement(By.cssSelector("div.error")).getText();
+    }
 
-    public boolean isErrorMassegeDisplayed(By location) {
-        List<WebElement> elements = wd.findElements(location);
-        return elements.size()>0;
+    public boolean isYallaButtonNotActive() {
+        // return isElementPresent(By.cssSelector("button[disabled]"));
+        return !wd.findElement(By.cssSelector("button[disabled]")).isEnabled();
+    }
+
+    public void openRegistrationForm() {
+        click(By.xpath("//a[text()=' Sign up ']"));
+    }
+
+    public void fillRegistrationForm(User user) {
+        type(By.cssSelector("#name"), user.getName());
+        type(By.id("lastName"), user.getLastName());
+        type(By.id("email"), user.getEmail());
+        type(By.id("password"), user.getPassword());
+    }
+
+    public void checkPolicy() {
+        click(By.xpath("//label[@class='checkbox-label terms-label']"));
+
+    }
+
+    public String wrongMassegeByEmailRegistration(){
+        return wd.findElement(By.xpath("//div[text()='Wrong email format']")).getText();
+    }
+
+    public String wrongMassegeByPasswordRegistration1() {
+        return wd.findElement(By.xpath("//div[text()='Password must contain minimum 8 symbols']")).getText();
+    }
+    public String wrongMassegeWithoutName(){
+        return wd.findElement(By.xpath("//div[text()=' Name is required ']")).getText();
+    }
+
+    public void clickByName() {
+        click(By.cssSelector("#name"));
+    }
+
+    public String wrongMassegeSpaceName() {
+        return wd.findElement(By.xpath("//h2[@class='message']")).getText();
     }
 }

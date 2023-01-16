@@ -5,24 +5,30 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import java.time.Duration;
+
 public class ApplicationManager {
     WebDriver wd;
-    HelperUser hUser;
+    HelperUser helperUser;
 
     public void init() {
         wd = new ChromeDriver();
-        wd.manage().window().maximize();
+        wd.manage().window();
         wd.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-        wd.navigate().to("https://ilcarro.web.app/");
-        hUser = new HelperUser(wd);
+        wd.navigate().to("https://ilcarro.web.app");
+        helperUser= new HelperUser(wd);
+
     }
 
     public void stop() {
-       wd.quit();
-   }
+        wd.quit();
+    }
 
-    public HelperUser gethUser() {
-
-        return hUser;
+    public HelperUser getHelperUser() {
+        return helperUser;
     }
 }
