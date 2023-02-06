@@ -1,0 +1,23 @@
+14:51:01.144  INFO  manager.ApplicationManager - All test start in Chrome Browser
+14:51:03.916  INFO  manager.ApplicationManager - Current URL -->https://ilcarro.web.app/search
+14:51:03.957  INFO  tests.TestBase - The name of starts method is -->  loginSuccess
+14:51:03.961  INFO  manager.ListenerWD - Before find elements-->By.xpath: //a[text()=' Logout ']
+14:51:09.042  INFO  manager.ListenerWD - After find elements-->By.xpath: //a[text()=' Logout ']
+14:51:09.046  INFO  manager.ListenerWD - List size-->0
+14:51:09.048  INFO  tests.TestBase - Test 2: Login with valid data: email:benb@gmail.com  password:Beny$123456 
+14:51:09.049  INFO  manager.ListenerWD - Before find element-->By.xpath: //a[text()=' Log in ']
+14:51:09.092  INFO  manager.ListenerWD - After find element-->By.xpath: //a[text()=' Log in ']
+14:51:09.242  INFO  manager.ListenerWD - Before find element-->By.id: email
+14:51:09.276  INFO  manager.ListenerWD - After find element-->By.id: email
+14:51:09.542  INFO  manager.ListenerWD - Before find element-->By.id: password
+14:51:09.575  INFO  manager.ListenerWD - After find element-->By.id: password
+14:51:09.758  INFO  manager.ListenerWD - Before find element-->By.xpath: //button[contains(@type,'submit')]
+14:51:09.798  INFO  manager.ListenerWD - After find element-->By.xpath: //button[contains(@type,'submit')]
+14:51:10.866  INFO  manager.ListenerWD - Before find element-->By.cssSelector: div.dialog-container>h2
+14:51:11.081  INFO  manager.ListenerWD - After find element-->By.cssSelector: div.dialog-container>h2
+14:51:11.108  INFO  tests.TestBase - Test success
+14:51:11.112  INFO  manager.ListenerWD - Before find elements-->By.xpath: //button[text()='Ok']
+14:51:11.232  INFO  manager.ListenerWD - After find elements-->By.xpath: //button[text()='Ok']
+14:51:11.233  INFO  manager.ListenerWD - List size-->1
+14:51:11.233  INFO  manager.ListenerWD - Before find element-->By.xpath: //button[text()='Ok']
+14:51:11.348  INFO  manager.ListenerWD - After find element-->By.xpath: //button[text()='Ok']

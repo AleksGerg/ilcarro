@@ -1,0 +1,23 @@
+15:45:23.534  INFO  manager.ApplicationManager - Start Chrome
+15:45:26.355  INFO  manager.ApplicationManager - Current URL -->https://ilcarro.web.app/search
+15:45:26.397  INFO  tests.TestBase - The name of starts method is -->  loginWrongPassword
+15:45:26.400  INFO  manager.ListenerWD - Before find elements-->By.xpath: //a[text()=' Logout ']
+15:45:31.451  INFO  manager.ListenerWD - After find elements-->By.xpath: //a[text()=' Logout ']
+15:45:31.455  INFO  manager.ListenerWD - List size-->0
+15:45:31.462  INFO  tests.TestBase - Test 5: Login Wrong Password with data:benb@gmail.comBe
+15:45:31.464  INFO  manager.ListenerWD - Before find element-->By.xpath: //a[text()=' Log in ']
+15:45:31.502  INFO  manager.ListenerWD - After find element-->By.xpath: //a[text()=' Log in ']
+15:45:31.636  INFO  manager.ListenerWD - Before find element-->By.xpath: //input[@type='email']
+15:45:31.685  INFO  manager.ListenerWD - After find element-->By.xpath: //input[@type='email']
+15:45:31.943  INFO  manager.ListenerWD - Before find element-->By.id: password
+15:45:31.976  INFO  manager.ListenerWD - After find element-->By.id: password
+15:45:32.110  INFO  manager.ListenerWD - Before find element-->By.xpath: //button[contains(@type,'submit')]
+15:45:32.146  INFO  manager.ListenerWD - After find element-->By.xpath: //button[contains(@type,'submit')]
+15:45:34.240  INFO  manager.ListenerWD - Before find element-->By.cssSelector: div.dialog-container>h2
+15:45:34.274  INFO  manager.ListenerWD - After find element-->By.cssSelector: div.dialog-container>h2
+15:45:34.302  INFO  tests.TestBase - Error message is: 'Login or Password incorrect'
+15:45:34.306  INFO  manager.ListenerWD - Before find elements-->By.xpath: //button[text()='Ok']
+15:45:34.336  INFO  manager.ListenerWD - After find elements-->By.xpath: //button[text()='Ok']
+15:45:34.336  INFO  manager.ListenerWD - List size-->1
+15:45:34.337  INFO  manager.ListenerWD - Before find element-->By.xpath: //button[text()='Ok']
+15:45:34.371  INFO  manager.ListenerWD - After find element-->By.xpath: //button[text()='Ok']

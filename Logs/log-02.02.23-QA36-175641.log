@@ -1,0 +1,122 @@
+17:56:44.487  INFO  manager.ApplicationManager - All test start in Chrome Browser
+17:56:47.151  INFO  manager.ApplicationManager - Current URL -->https://ilcarro.web.app/search
+17:56:47.192  INFO  tests.TestBase - The name of starts method is -->  registrationSuccess
+17:56:47.195  INFO  manager.ListenerWD - Before find elements-->By.xpath: //a[text()=' Logout ']
+17:56:52.210  INFO  manager.ListenerWD - After find elements-->By.xpath: //a[text()=' Logout ']
+17:56:52.214  INFO  manager.ListenerWD - List size-->0
+17:56:52.223  INFO  tests.TestBase - Test !: Registration success with data: tap111@gmail.comadomA12345$
+17:56:52.227  INFO  manager.ListenerWD - Before find element-->By.xpath: //a[text()=' Sign up ']
+17:56:52.262  INFO  manager.ListenerWD - After find element-->By.xpath: //a[text()=' Sign up ']
+17:56:52.392  INFO  manager.ListenerWD - Before find element-->By.cssSelector: #name
+17:56:52.436  INFO  manager.ListenerWD - After find element-->By.cssSelector: #name
+17:56:52.616  INFO  manager.ListenerWD - Before find element-->By.id: lastName
+17:56:52.649  INFO  manager.ListenerWD - After find element-->By.id: lastName
+17:56:52.810  INFO  manager.ListenerWD - Before find element-->By.id: email
+17:56:52.846  INFO  manager.ListenerWD - After find element-->By.id: email
+17:56:53.032  INFO  manager.ListenerWD - Before find element-->By.id: password
+17:56:53.065  INFO  manager.ListenerWD - After find element-->By.id: password
+17:56:53.259  INFO  manager.ListenerWD - Before find element-->By.xpath: //label[@class='checkbox-label terms-label']
+17:56:53.298  INFO  manager.ListenerWD - After find element-->By.xpath: //label[@class='checkbox-label terms-label']
+17:56:53.475  INFO  manager.ListenerWD - Before find element-->By.xpath: //button[contains(@type,'submit')]
+17:56:53.520  INFO  manager.ListenerWD - After find element-->By.xpath: //button[contains(@type,'submit')]
+17:56:53.593  INFO  manager.ListenerWD - Before find elements-->By.xpath: //button[text()='Ok']
+17:56:55.521  INFO  manager.ListenerWD - After find elements-->By.xpath: //button[text()='Ok']
+17:56:55.521  INFO  manager.ListenerWD - List size-->1
+17:56:55.522  INFO  manager.ListenerWD - Before find element-->By.xpath: //button[text()='Ok']
+17:56:55.552  INFO  manager.ListenerWD - After find element-->By.xpath: //button[text()='Ok']
+17:56:55.618  INFO  manager.ListenerWD - Before find elements-->By.xpath: //a[text()=' Logout ']
+17:56:55.655  INFO  manager.ListenerWD - After find elements-->By.xpath: //a[text()=' Logout ']
+17:56:55.656  INFO  manager.ListenerWD - List size-->1
+17:56:55.659  INFO  tests.TestBase - Test success
+17:56:55.665  INFO  tests.TestBase - The name of starts method is -->  registrationWrongEmail
+17:56:55.666  INFO  manager.ListenerWD - Before find elements-->By.xpath: //a[text()=' Logout ']
+17:56:55.703  INFO  manager.ListenerWD - After find elements-->By.xpath: //a[text()=' Logout ']
+17:56:55.703  INFO  manager.ListenerWD - List size-->1
+17:56:55.703  INFO  manager.ListenerWD - Before find element-->By.cssSelector: div.header a:nth-child(5)
+17:56:55.737  INFO  manager.ListenerWD - After find element-->By.cssSelector: div.header a:nth-child(5)
+17:56:55.846  INFO  tests.TestBase - I need logout
+17:56:55.847  INFO  tests.TestBase - Test 2: Registration wrong email with data: tgmail.comadomA12345$
+17:56:55.847  INFO  manager.ListenerWD - Before find element-->By.xpath: //a[text()=' Sign up ']
+17:56:55.899  INFO  manager.ListenerWD - After find element-->By.xpath: //a[text()=' Sign up ']
+17:56:55.970  INFO  manager.ListenerWD - Before find element-->By.cssSelector: #name
+17:56:55.991  INFO  manager.ListenerWD - After find element-->By.cssSelector: #name
+17:56:56.129  INFO  manager.ListenerWD - Before find element-->By.id: lastName
+17:56:56.146  INFO  manager.ListenerWD - After find element-->By.id: lastName
+17:56:56.290  INFO  manager.ListenerWD - Before find element-->By.id: email
+17:56:56.309  INFO  manager.ListenerWD - After find element-->By.id: email
+17:56:56.478  INFO  manager.ListenerWD - Before find element-->By.id: password
+17:56:56.496  INFO  manager.ListenerWD - After find element-->By.id: password
+17:56:56.675  INFO  manager.ListenerWD - Before find element-->By.xpath: //label[@class='checkbox-label terms-label']
+17:56:56.699  INFO  manager.ListenerWD - After find element-->By.xpath: //label[@class='checkbox-label terms-label']
+17:56:56.855  INFO  manager.ListenerWD - Before find element-->By.xpath: //button[contains(@type,'submit')]
+17:56:56.880  INFO  manager.ListenerWD - After find element-->By.xpath: //button[contains(@type,'submit')]
+17:56:56.924  INFO  manager.ListenerWD - Before find elements-->By.xpath: //button[text()='Ok']
+17:57:01.992  INFO  manager.ListenerWD - After find elements-->By.xpath: //button[text()='Ok']
+17:57:01.992  INFO  manager.ListenerWD - List size-->0
+17:57:01.993  INFO  manager.ListenerWD - Before find element-->By.xpath: //div[text()='Wrong email format']
+17:57:02.026  INFO  manager.ListenerWD - After find element-->By.xpath: //div[text()='Wrong email format']
+17:57:02.049  INFO  manager.ListenerWD - Before find element-->By.cssSelector: button[disabled]
+17:57:02.080  INFO  manager.ListenerWD - After find element-->By.cssSelector: button[disabled]
+17:57:02.093  INFO  tests.TestBase - Message is: 'Wrong email format'
+17:57:02.095  INFO  tests.TestBase - The name of starts method is -->  registrationWrongPasswordMin8Symbols
+17:57:02.096  INFO  manager.ListenerWD - Before find elements-->By.xpath: //a[text()=' Logout ']
+17:57:07.129  INFO  manager.ListenerWD - After find elements-->By.xpath: //a[text()=' Logout ']
+17:57:07.130  INFO  manager.ListenerWD - List size-->0
+17:57:07.133  INFO  tests.TestBase - Test 3:Registration Wrong Password Min 8 Symbols: tap879@gmail.comadom
+17:57:07.134  INFO  manager.ListenerWD - Before find element-->By.xpath: //a[text()=' Sign up ']
+17:57:07.154  INFO  manager.ListenerWD - After find element-->By.xpath: //a[text()=' Sign up ']
+17:57:07.190  INFO  manager.ListenerWD - Before find element-->By.cssSelector: #name
+17:57:07.211  INFO  manager.ListenerWD - After find element-->By.cssSelector: #name
+17:57:07.378  INFO  manager.ListenerWD - Before find element-->By.id: lastName
+17:57:07.397  INFO  manager.ListenerWD - After find element-->By.id: lastName
+17:57:07.556  INFO  manager.ListenerWD - Before find element-->By.id: email
+17:57:07.575  INFO  manager.ListenerWD - After find element-->By.id: email
+17:57:07.746  INFO  manager.ListenerWD - Before find element-->By.id: password
+17:57:07.771  INFO  manager.ListenerWD - After find element-->By.id: password
+17:57:07.930  INFO  manager.ListenerWD - Before find element-->By.xpath: //label[@class='checkbox-label terms-label']
+17:57:07.948  INFO  manager.ListenerWD - After find element-->By.xpath: //label[@class='checkbox-label terms-label']
+17:57:08.127  INFO  manager.ListenerWD - Before find element-->By.xpath: //button[contains(@type,'submit')]
+17:57:08.161  INFO  manager.ListenerWD - After find element-->By.xpath: //button[contains(@type,'submit')]
+17:57:08.192  INFO  manager.ListenerWD - Before find elements-->By.xpath: //button[text()='Ok']
+17:57:13.233  INFO  manager.ListenerWD - After find elements-->By.xpath: //button[text()='Ok']
+17:57:13.233  INFO  manager.ListenerWD - List size-->0
+17:57:13.234  INFO  manager.ListenerWD - Before find element-->By.xpath: //div[text()='Password must contain minimum 8 symbols']
+17:57:13.261  INFO  manager.ListenerWD - After find element-->By.xpath: //div[text()='Password must contain minimum 8 symbols']
+17:57:13.275  INFO  manager.ListenerWD - Before find element-->By.cssSelector: button[disabled]
+17:57:13.291  INFO  manager.ListenerWD - After find element-->By.cssSelector: button[disabled]
+17:57:13.298  INFO  tests.TestBase - Message is: 'Password must contain minimum 8 symbols'
+17:57:13.300  INFO  tests.TestBase - The name of starts method is -->  registrationWrongWithoutName
+17:57:13.301  INFO  manager.ListenerWD - Before find elements-->By.xpath: //a[text()=' Logout ']
+17:57:18.335  INFO  manager.ListenerWD - After find elements-->By.xpath: //a[text()=' Logout ']
+17:57:18.336  INFO  manager.ListenerWD - List size-->0
+17:57:18.339  INFO  tests.TestBase -  Test 4: Registration wrong Without Name: tap@mail.comadomA12345$
+17:57:18.340  INFO  manager.ListenerWD - Before find element-->By.xpath: //a[text()=' Sign up ']
+17:57:18.362  INFO  manager.ListenerWD - After find element-->By.xpath: //a[text()=' Sign up ']
+17:57:18.395  INFO  manager.ListenerWD - Before find element-->By.cssSelector: #name
+17:57:18.416  INFO  manager.ListenerWD - After find element-->By.cssSelector: #name
+17:57:18.454  INFO  manager.ListenerWD - Before find element-->By.id: lastName
+17:57:18.475  INFO  manager.ListenerWD - After find element-->By.id: lastName
+17:57:18.610  INFO  manager.ListenerWD - Before find element-->By.id: email
+17:57:18.626  INFO  manager.ListenerWD - After find element-->By.id: email
+17:57:18.758  INFO  manager.ListenerWD - Before find element-->By.id: password
+17:57:18.776  INFO  manager.ListenerWD - After find element-->By.id: password
+17:57:18.936  INFO  manager.ListenerWD - Before find element-->By.xpath: //label[@class='checkbox-label terms-label']
+17:57:18.956  INFO  manager.ListenerWD - After find element-->By.xpath: //label[@class='checkbox-label terms-label']
+17:57:19.090  INFO  manager.ListenerWD - Before find element-->By.xpath: //div[@class='error']
+17:57:24.117  INFO  manager.ListenerWD - 'Test ends with error'
+17:57:24.117  INFO  manager.ListenerWD - *****************************************
+17:57:24.118  INFO  manager.ListenerWD - Method method findElement
+17:57:24.118  INFO  manager.ListenerWD - *****************************************
+17:57:24.120  INFO  manager.ListenerWD - Invocation Target Exceptionorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='error']"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4d35d99d9d013986050aaa63f8c31dfa, findElement {using=xpath, value=//div[@class='error']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57331}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57331/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d35d99d9d013986050aaa63f8c31dfa
+17:57:24.121  INFO  manager.ListenerWD - *****************************************
+17:57:24.122  INFO  manager.ListenerWD - Object targetChromeDriver: chrome on WINDOWS (4d35d99d9d013986050aaa63f8c31dfa)
+17:57:24.122  INFO  manager.ListenerWD - *****************************************
+17:57:24.123  INFO  manager.ListenerWD - Screen with error-->src/test/screenshots/screen804.png

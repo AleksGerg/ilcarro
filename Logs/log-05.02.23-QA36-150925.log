@@ -1,0 +1,23 @@
+15:09:28.236  INFO  manager.ApplicationManager - All test start in Chrome Browser
+15:09:30.797  INFO  manager.ApplicationManager - Current URL -->https://ilcarro.web.app/search
+15:09:30.846  INFO  tests.TestBase - The name of starts method is -->  loginWrongEmail
+15:09:30.848  INFO  manager.ListenerWD - Before find elements-->By.xpath: //a[text()=' Logout ']
+15:09:35.894  INFO  manager.ListenerWD - After find elements-->By.xpath: //a[text()=' Logout ']
+15:09:35.897  INFO  manager.ListenerWD - List size-->0
+15:09:35.900  INFO  tests.TestBase - Test 4: Login Wrong Email with data: email-> ben.com & password-> Beny$123456 
+15:09:35.902  INFO  manager.ListenerWD - Before find element-->By.xpath: //a[text()=' Log in ']
+15:09:35.940  INFO  manager.ListenerWD - After find element-->By.xpath: //a[text()=' Log in ']
+15:09:36.080  INFO  manager.ListenerWD - Before find element-->By.xpath: //input[@type='email']
+15:09:36.123  INFO  manager.ListenerWD - After find element-->By.xpath: //input[@type='email']
+15:09:36.375  INFO  manager.ListenerWD - Before find element-->By.id: password
+15:09:36.418  INFO  manager.ListenerWD - After find element-->By.id: password
+15:09:36.600  INFO  manager.ListenerWD - Before find element-->By.xpath: //button[contains(@type,'submit')]
+15:09:36.644  INFO  manager.ListenerWD - After find element-->By.xpath: //button[contains(@type,'submit')]
+15:09:36.684  INFO  manager.ListenerWD - Before find element-->By.cssSelector: div.error
+15:09:36.717  INFO  manager.ListenerWD - After find element-->By.cssSelector: div.error
+15:09:36.742  INFO  manager.ListenerWD - Before find element-->By.cssSelector: button[disabled]
+15:09:36.772  INFO  manager.ListenerWD - After find element-->By.cssSelector: button[disabled]
+15:09:36.785  INFO  tests.TestBase - Error message is: 'It's not look like email'
+15:09:36.792  INFO  manager.ListenerWD - Before find elements-->By.xpath: //button[text()='Ok']
+15:09:41.803  INFO  manager.ListenerWD - After find elements-->By.xpath: //button[text()='Ok']
+15:09:41.804  INFO  manager.ListenerWD - List size-->0

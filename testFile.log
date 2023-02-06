@@ -1,0 +1,47 @@
+11:37:53.985  INFO  manager.ApplicationManager - All test start in Chrome Browser
+11:38:01.069  INFO  manager.ApplicationManager - Current URL -->https://ilcarro.web.app/search
+11:38:01.107  INFO  tests.TestBase - The name of starts method is -->  addNewCarSuccsses
+11:38:10.013  INFO  tests.TestBase - I need logout
+11:38:10.032  INFO  tests.TestBase - Test 1: Add New Car Success
+11:38:15.179  INFO  tests.TestBase - Test 1 stopped with data: Car(location=Haifa, Israel, manufacture=bmw, model=W154, year=2020, fuel=Petrol, seats=4, clasS=C, carRegNumber=555-66-1179, price=65, about=very nice car)
+14:50:27.916  INFO  manager.ApplicationManager - All test start in Chrome Browser
+14:50:29.706  INFO  manager.ApplicationManager - Current URL -->https://ilcarro.web.app/search
+14:50:29.749  INFO  tests.TestBase - The name of starts method is -->  loginSuccess
+14:50:29.752  INFO  manager.Listener - Start searching element by locatorBy.xpath: //a[text()=' Logout ']
+14:50:34.788  INFO  manager.Listener - The element with loatorBy.xpath: //a[text()=' Logout '] is found
+14:50:34.790  INFO  tests.TestBase - Test 2: Login with valid data: email:benb@gmail.com  password:Beny$123456 
+14:50:34.790  INFO  manager.Listener - Start searching element by locatorBy.xpath: //a[text()=' Log in ']
+14:50:34.817  INFO  manager.Listener - The element with loatorBy.xpath: //a[text()=' Log in '] is found
+14:50:34.923  INFO  manager.Listener - Start searching element by locatorBy.id: email
+14:50:34.948  INFO  manager.Listener - The element with loatorBy.id: email is found
+14:50:35.156  INFO  manager.Listener - Start searching element by locatorBy.id: password
+14:50:35.172  INFO  manager.Listener - The element with loatorBy.id: password is found
+14:50:35.361  INFO  manager.Listener - Start searching element by locatorBy.xpath: //button[contains(@type,'submit')]
+14:50:35.384  INFO  manager.Listener - The element with loatorBy.xpath: //button[contains(@type,'submit')] is found
+14:50:35.446  INFO  manager.Listener - Start searching element by locatorBy.cssSelector: div.dialog-container>h2
+14:50:36.611  INFO  manager.Listener - The element with loatorBy.cssSelector: div.dialog-container>h2 is found
+14:50:36.642  INFO  manager.Listener - Start searching element by locatorBy.xpath: //button[text()='Ok']
+14:50:36.687  INFO  manager.Listener - The element with loatorBy.xpath: //button[text()='Ok'] is found
+14:50:36.687  INFO  manager.Listener - Start searching element by locatorBy.xpath: //button[text()='Ok']
+14:50:36.725  INFO  manager.Listener - The element with loatorBy.xpath: //button[text()='Ok'] is found
+14:56:08.210  INFO  manager.ApplicationManager - All test start in Chrome Browser
+14:56:10.578  INFO  manager.ApplicationManager - Current URL -->https://ilcarro.web.app/search
+14:56:10.617  INFO  tests.TestBase - The name of starts method is -->  loginSuccess
+14:56:10.621  INFO  manager.Listener - Start searching element by locatorBy.xpath: //a[text()=' Logout ']
+14:56:15.651  INFO  manager.Listener - The element with loatorBy.xpath: //a[text()=' Logout '] is found
+14:56:15.653  INFO  tests.TestBase - Test 2: Login with valid data: email:benb@gmail.com  password:Beny$123456 
+14:56:15.653  INFO  manager.Listener - Start searching element by locatorBy.xpath: //a[text()=' Log in ']
+14:56:15.672  INFO  manager.Listener - The element with loatorBy.xpath: //a[text()=' Log in '] is found
+14:56:15.808  INFO  manager.Listener - Start searching element by locatorBy.id: email
+14:56:15.832  INFO  manager.Listener - The element with loatorBy.id: email is found
+14:56:16.077  INFO  manager.Listener - Start searching element by locatorBy.id: password
+14:56:16.101  INFO  manager.Listener - The element with loatorBy.id: password is found
+14:56:16.271  INFO  manager.Listener - Start searching element by locatorBy.xpath: //button[contains(@type,'submit')]
+14:56:16.298  INFO  manager.Listener - The element with loatorBy.xpath: //button[contains(@type,'submit')] is found
+14:56:17.364  INFO  manager.Listener - Start searching element by locatorBy.cssSelector: div.dialog-container>h2
+14:56:17.397  INFO  manager.Listener - The element with loatorBy.cssSelector: div.dialog-container>h2 is found
+14:56:17.424  INFO  tests.TestBase - Test success
+14:56:17.429  INFO  manager.Listener - Start searching element by locatorBy.xpath: //button[text()='Ok']
+14:56:17.449  INFO  manager.Listener - The element with loatorBy.xpath: //button[text()='Ok'] is found
+14:56:17.449  INFO  manager.Listener - Start searching element by locatorBy.xpath: //button[text()='Ok']
+14:56:17.468  INFO  manager.Listener - The element with loatorBy.xpath: //button[text()='Ok'] is found

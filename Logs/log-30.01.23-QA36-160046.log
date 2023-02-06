@@ -1,0 +1,22 @@
+16:00:49.908  INFO  manager.ApplicationManager - All test start in Chrome Browser
+16:00:52.463  INFO  manager.ApplicationManager - Current URL -->https://ilcarro.web.app/search
+16:00:52.503  INFO  tests.TestBase - The name of starts method is -->  loginSuccess
+16:00:52.506  INFO  manager.ListenerWD - Before find elements-->By.xpath: //a[text()=' Logout ']
+16:00:57.553  INFO  manager.ListenerWD - After find elements-->By.xpath: //a[text()=' Logout ']
+16:00:57.557  INFO  manager.ListenerWD - List size-->0
+16:00:57.558  INFO  tests.TestBase - Test 2: Login with valid data: email:benb@gmail.com  password:Beny$123456 
+16:00:57.560  INFO  manager.ListenerWD - Before find element-->By.xpath: //a[text()=' Log in ']
+16:00:57.601  INFO  manager.ListenerWD - After find element-->By.xpath: //a[text()=' Log in ']
+16:00:57.713  INFO  manager.ListenerWD - Before find element-->By.id: email
+16:00:57.750  INFO  manager.ListenerWD - After find element-->By.id: email
+16:00:57.971  INFO  manager.ListenerWD - Before find element-->By.id: password
+16:00:58.007  INFO  manager.ListenerWD - After find element-->By.id: password
+16:00:58.169  INFO  manager.ListenerWD - Before find element-->By.xpath: //button[contains(@type,'submit')]
+16:00:58.207  INFO  manager.ListenerWD - After find element-->By.xpath: //button[contains(@type,'submit')]
+16:00:59.287  INFO  manager.ListenerWD - Before find element-->By.cssSelector: div.dialog-container>h2
+16:00:59.461  INFO  manager.ListenerWD - After find element-->By.cssSelector: div.dialog-container>h2
+16:00:59.490  INFO  manager.ListenerWD - Before find elements-->By.xpath: //button[text()='Ok']
+16:00:59.668  INFO  manager.ListenerWD - After find elements-->By.xpath: //button[text()='Ok']
+16:00:59.669  INFO  manager.ListenerWD - List size-->1
+16:00:59.669  INFO  manager.ListenerWD - Before find element-->By.xpath: //button[text()='Ok']
+16:00:59.771  INFO  manager.ListenerWD - After find element-->By.xpath: //button[text()='Ok']

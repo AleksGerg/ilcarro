@@ -1,0 +1,45 @@
+15:00:36.275  INFO  manager.ApplicationManager - All test start in Chrome Browser
+15:00:39.174  INFO  manager.ApplicationManager - Current URL -->https://ilcarro.web.app/search
+15:00:39.219  INFO  tests.TestBase - The name of starts method is -->  loginSuccess
+15:00:39.223  INFO  manager.ListenerWD - Before find elements-->By.xpath: //a[text()=' Logout ']
+15:00:44.302  INFO  manager.ListenerWD - After find elements-->By.xpath: //a[text()=' Logout ']
+15:00:44.305  INFO  manager.ListenerWD - List size-->0
+15:00:44.318  INFO  tests.TestBase - Test 2: Login with valid data: benb@gmail.com password: Beny$123456
+15:00:44.319  INFO  manager.ListenerWD - Before find element-->By.xpath: //a[text()=' Log in ']
+15:00:44.428  INFO  manager.ListenerWD - After find element-->By.xpath: //a[text()=' Log in ']
+15:00:44.644  INFO  manager.ListenerWD - Before find element-->By.id: email
+15:00:44.680  INFO  manager.ListenerWD - After find element-->By.id: email
+15:00:44.957  INFO  manager.ListenerWD - Before find element-->By.id: password
+15:00:44.998  INFO  manager.ListenerWD - After find element-->By.id: password
+15:00:45.171  INFO  manager.ListenerWD - Before find element-->By.xpath: //button[contains(@type,'submit')]
+15:00:45.218  INFO  manager.ListenerWD - After find element-->By.xpath: //button[contains(@type,'submit')]
+15:00:46.323  INFO  manager.ListenerWD - Before find element-->By.cssSelector: div.dialog-container>h2
+15:00:46.429  INFO  manager.ListenerWD - After find element-->By.cssSelector: div.dialog-container>h2
+15:00:46.476  INFO  tests.TestBase - Test success
+15:00:46.480  INFO  manager.ListenerWD - Before find elements-->By.xpath: //button[text()='Ok']
+15:00:46.529  INFO  manager.ListenerWD - After find elements-->By.xpath: //button[text()='Ok']
+15:00:46.530  INFO  manager.ListenerWD - List size-->1
+15:00:46.530  INFO  manager.ListenerWD - Before find element-->By.xpath: //button[text()='Ok']
+15:00:46.654  INFO  manager.ListenerWD - After find element-->By.xpath: //button[text()='Ok']
+15:00:46.750  INFO  tests.TestBase - The name of starts method is -->  loginSuccess
+15:00:46.751  INFO  manager.ListenerWD - Before find elements-->By.xpath: //a[text()=' Logout ']
+15:00:46.784  INFO  manager.ListenerWD - After find elements-->By.xpath: //a[text()=' Logout ']
+15:00:46.785  INFO  manager.ListenerWD - List size-->1
+15:00:46.785  INFO  manager.ListenerWD - Before find element-->By.xpath: //button[text()=' Logout ']
+15:00:51.875  INFO  manager.ListenerWD - 'Test ends with error'
+15:00:51.876  INFO  manager.ListenerWD - *****************************************
+15:00:51.876  INFO  manager.ListenerWD - Method method findElement
+15:00:51.876  INFO  manager.ListenerWD - *****************************************
+15:00:51.879  INFO  manager.ListenerWD - Invocation Target Exceptionorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()=' Logout ']"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ccb637323b0f37413969f32f079f61ca, findElement {using=xpath, value=//button[text()=' Logout ']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58972}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58972/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ccb637323b0f37413969f32f079f61ca
+15:00:51.880  INFO  manager.ListenerWD - *****************************************
+15:00:51.880  INFO  manager.ListenerWD - Object targetChromeDriver: chrome on WINDOWS (ccb637323b0f37413969f32f079f61ca)
+15:00:51.880  INFO  manager.ListenerWD - *****************************************
+15:00:51.887  INFO  manager.ListenerWD - Screen with error-->src/test/screenshots/screen223.png

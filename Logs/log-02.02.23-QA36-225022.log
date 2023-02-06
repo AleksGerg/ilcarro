@@ -1,0 +1,54 @@
+22:50:25.651  INFO  manager.ApplicationManager - All test start in Chrome Browser
+22:50:28.305  INFO  manager.ApplicationManager - Current URL -->https://ilcarro.web.app/search
+22:50:28.387  INFO  tests.TestBase - The name of starts method is -->  addNewCarSuccsses
+22:50:28.390  INFO  manager.ListenerWD - Before find elements-->By.xpath: //a[text()=' Logout ']
+22:50:33.420  INFO  manager.ListenerWD - After find elements-->By.xpath: //a[text()=' Logout ']
+22:50:33.424  INFO  manager.ListenerWD - List size-->0
+22:50:33.427  INFO  manager.ListenerWD - Before find element-->By.xpath: //a[text()=' Log in ']
+22:50:33.463  INFO  manager.ListenerWD - After find element-->By.xpath: //a[text()=' Log in ']
+22:50:33.570  INFO  manager.ListenerWD - Before find element-->By.xpath: //input[@type='email']
+22:50:33.608  INFO  manager.ListenerWD - After find element-->By.xpath: //input[@type='email']
+22:50:33.834  INFO  manager.ListenerWD - Before find element-->By.id: password
+22:50:33.871  INFO  manager.ListenerWD - After find element-->By.id: password
+22:50:34.048  INFO  manager.ListenerWD - Before find element-->By.xpath: //button[contains(@type,'submit')]
+22:50:34.090  INFO  manager.ListenerWD - After find element-->By.xpath: //button[contains(@type,'submit')]
+22:50:34.157  INFO  manager.ListenerWD - Before find elements-->By.xpath: //button[text()='Ok']
+22:50:35.335  INFO  manager.ListenerWD - After find elements-->By.xpath: //button[text()='Ok']
+22:50:35.335  INFO  manager.ListenerWD - List size-->1
+22:50:35.336  INFO  manager.ListenerWD - Before find element-->By.xpath: //button[text()='Ok']
+22:50:35.380  INFO  manager.ListenerWD - After find element-->By.xpath: //button[text()='Ok']
+22:50:35.482  INFO  tests.TestBase - I need logout
+22:50:35.486  INFO  tests.TestBase - Test 1: Add New Car Success
+22:50:36.000  INFO  manager.ListenerWD - Before find element-->By.xpath: //a[text()=' Let the car work ']
+22:50:36.029  INFO  manager.ListenerWD - After find element-->By.xpath: //a[text()=' Let the car work ']
+22:50:36.132  INFO  manager.ListenerWD - Before find element-->By.id: pickUpPlace
+22:50:36.165  INFO  manager.ListenerWD - After find element-->By.id: pickUpPlace
+22:50:36.381  INFO  manager.ListenerWD - Before find element-->By.cssSelector: .pac-item
+22:50:36.796  INFO  manager.ListenerWD - After find element-->By.cssSelector: .pac-item
+22:50:37.371  INFO  manager.ListenerWD - Before find element-->By.id: make
+22:50:37.398  INFO  manager.ListenerWD - After find element-->By.id: make
+22:50:37.538  INFO  manager.ListenerWD - Before find element-->By.id: model
+22:50:37.566  INFO  manager.ListenerWD - After find element-->By.id: model
+22:50:37.720  INFO  manager.ListenerWD - Before find element-->By.id: year
+22:50:37.751  INFO  manager.ListenerWD - After find element-->By.id: year
+22:50:37.926  INFO  manager.ListenerWD - Before find element-->By.id: fuel
+22:50:37.968  INFO  manager.ListenerWD - After find element-->By.id: fuel
+22:50:38.090  INFO  manager.ListenerWD - Before find element-->By.id: seats
+22:50:38.126  INFO  manager.ListenerWD - After find element-->By.id: seats
+22:50:38.295  INFO  manager.ListenerWD - Before find element-->By.id: class
+22:50:38.337  INFO  manager.ListenerWD - After find element-->By.id: class
+22:50:38.514  INFO  manager.ListenerWD - Before find element-->By.id: serialNumber
+22:50:38.543  INFO  manager.ListenerWD - After find element-->By.id: serialNumber
+22:50:38.776  INFO  manager.ListenerWD - Before find element-->By.id: price
+22:50:38.804  INFO  manager.ListenerWD - After find element-->By.id: price
+22:50:39.015  INFO  manager.ListenerWD - Before find element-->By.id: about
+22:50:39.037  INFO  manager.ListenerWD - After find element-->By.id: about
+22:50:39.179  INFO  manager.ListenerWD - Before find element-->By.id: photos
+22:50:39.210  INFO  manager.ListenerWD - After find element-->By.id: photos
+22:50:39.277  INFO  manager.ListenerWD - Before find element-->By.xpath: //button[contains(@type,'submit')]
+22:50:39.306  INFO  manager.ListenerWD - After find element-->By.xpath: //button[contains(@type,'submit')]
+22:50:39.378  INFO  manager.ListenerWD - Before find element-->By.cssSelector: div.dialog-container h1
+22:50:39.905  INFO  manager.ListenerWD - After find element-->By.cssSelector: div.dialog-container h1
+22:50:39.952  INFO  manager.ListenerWD - Before find element-->By.xpath: //button[contains(text(),'Show car')]
+22:50:39.976  INFO  manager.ListenerWD - After find element-->By.xpath: //button[contains(text(),'Show car')]
+22:50:40.082  INFO  tests.TestBase - Test 1 stopped with data: Car(location=Haifa, Israel, manufacture=bmw, model=W154, year=2020, fuel=Petrol, seats=4, clasS=C, carRegNumber=555-66-1116, price=65, about=very nice car)

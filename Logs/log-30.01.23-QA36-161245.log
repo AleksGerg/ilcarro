@@ -1,0 +1,30 @@
+16:12:48.275  INFO  manager.ApplicationManager - All test start in Chrome Browser
+16:12:50.451  INFO  manager.ApplicationManager - Current URL -->https://ilcarro.web.app/search
+16:12:50.494  INFO  tests.TestBase - The name of starts method is -->  loginSuccess
+16:12:50.497  INFO  manager.ListenerWD - Before find elements-->By.xpath: //a[text()=' Logout ']
+16:12:55.537  INFO  manager.ListenerWD - After find elements-->By.xpath: //a[text()=' Logout ']
+16:12:55.540  INFO  manager.ListenerWD - List size-->0
+16:12:55.542  INFO  tests.TestBase - Test 2: Login with valid data: email:benb@gmail.com  password:Beny$123456 
+16:12:55.544  INFO  manager.ListenerWD - Before find element-->By.xpath: //a[text()=' Log in ']
+16:12:55.581  INFO  manager.ListenerWD - After find element-->By.xpath: //a[text()=' Log in ']
+16:12:55.695  INFO  manager.ListenerWD - Before find element-->By.id: mail
+16:13:00.724  INFO  manager.ListenerWD - 'Test ends with error'
+16:13:00.725  INFO  manager.ListenerWD - *****************************************
+16:13:00.725  INFO  manager.ListenerWD - Method method findElement
+16:13:00.726  INFO  manager.ListenerWD - *****************************************
+16:13:00.728  INFO  manager.ListenerWD - Invocation Target Exceptionorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#mail"}
+  (Session info: chrome=109.0.5414.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [910368f06d14436c1f17dc5901254655, findElement {using=id, value=mail}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.119, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59207}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59207/devtoo..., se:cdpVersion: 109.0.5414.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 910368f06d14436c1f17dc5901254655
+16:13:00.730  INFO  manager.ListenerWD - *****************************************
+16:13:00.731  INFO  manager.ListenerWD - Object targetChromeDriver: chrome on WINDOWS (910368f06d14436c1f17dc5901254655)
+16:13:00.731  INFO  manager.ListenerWD - *****************************************
+16:13:00.736  INFO  manager.ListenerWD - Screen with error-->src/test/screenshots/screen696.png
+16:13:01.272  INFO  manager.ListenerWD - Before find elements-->By.xpath: //button[text()='Ok']
+16:13:06.318  INFO  manager.ListenerWD - After find elements-->By.xpath: //button[text()='Ok']
+16:13:06.319  INFO  manager.ListenerWD - List size-->0

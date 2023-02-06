@@ -1,0 +1,96 @@
+22:28:41.406  INFO  manager.ApplicationManager - All test start in Chrome Browser
+22:28:44.368  INFO  manager.ApplicationManager - Current URL -->https://ilcarro.web.app/search
+22:28:44.412  INFO  tests.TestBase - The name of starts method is -->  addNewCarSuccsses
+22:28:44.416  INFO  manager.ListenerWD - Before find elements-->By.xpath: //a[text()=' Logout ']
+22:28:49.457  INFO  manager.ListenerWD - After find elements-->By.xpath: //a[text()=' Logout ']
+22:28:49.461  INFO  manager.ListenerWD - List size-->0
+22:28:49.463  INFO  manager.ListenerWD - Before find element-->By.xpath: //a[text()=' Log in ']
+22:28:49.497  INFO  manager.ListenerWD - After find element-->By.xpath: //a[text()=' Log in ']
+22:28:49.600  INFO  manager.ListenerWD - Before find element-->By.xpath: //input[@type='email']
+22:28:49.640  INFO  manager.ListenerWD - After find element-->By.xpath: //input[@type='email']
+22:28:49.916  INFO  manager.ListenerWD - Before find element-->By.id: password
+22:28:49.957  INFO  manager.ListenerWD - After find element-->By.id: password
+22:28:50.148  INFO  manager.ListenerWD - Before find element-->By.xpath: //button[contains(@type,'submit')]
+22:28:50.190  INFO  manager.ListenerWD - After find element-->By.xpath: //button[contains(@type,'submit')]
+22:28:50.276  INFO  manager.ListenerWD - Before find elements-->By.xpath: //button[text()='Ok']
+22:28:51.423  INFO  manager.ListenerWD - After find elements-->By.xpath: //button[text()='Ok']
+22:28:51.423  INFO  manager.ListenerWD - List size-->1
+22:28:51.424  INFO  manager.ListenerWD - Before find element-->By.xpath: //button[text()='Ok']
+22:28:51.460  INFO  manager.ListenerWD - After find element-->By.xpath: //button[text()='Ok']
+22:28:51.551  INFO  tests.TestBase - I need logout
+22:28:51.556  INFO  tests.TestBase - Test 1: Add New Car Success
+22:28:52.063  INFO  manager.ListenerWD - Before find element-->By.xpath: //a[text()=' Let the car work ']
+22:28:52.090  INFO  manager.ListenerWD - After find element-->By.xpath: //a[text()=' Let the car work ']
+22:28:52.203  INFO  manager.ListenerWD - Before find element-->By.id: pickUpPlace
+22:28:52.232  INFO  manager.ListenerWD - After find element-->By.id: pickUpPlace
+22:28:52.420  INFO  manager.ListenerWD - Before find element-->By.cssSelector: .pac-item
+22:28:52.962  INFO  manager.ListenerWD - After find element-->By.cssSelector: .pac-item
+22:28:53.539  INFO  manager.ListenerWD - Before find element-->By.id: make
+22:28:53.568  INFO  manager.ListenerWD - After find element-->By.id: make
+22:28:53.697  INFO  manager.ListenerWD - Before find element-->By.id: model
+22:28:53.729  INFO  manager.ListenerWD - After find element-->By.id: model
+22:28:53.868  INFO  manager.ListenerWD - Before find element-->By.id: year
+22:28:53.894  INFO  manager.ListenerWD - After find element-->By.id: year
+22:28:54.052  INFO  manager.ListenerWD - Before find element-->By.id: fuel
+22:28:54.082  INFO  manager.ListenerWD - After find element-->By.id: fuel
+22:28:54.222  INFO  manager.ListenerWD - Before find element-->By.id: seats
+22:28:54.254  INFO  manager.ListenerWD - After find element-->By.id: seats
+22:28:54.391  INFO  manager.ListenerWD - Before find element-->By.id: class
+22:28:54.426  INFO  manager.ListenerWD - After find element-->By.id: class
+22:28:54.601  INFO  manager.ListenerWD - Before find element-->By.id: serialNumber
+22:28:54.626  INFO  manager.ListenerWD - After find element-->By.id: serialNumber
+22:28:54.790  INFO  manager.ListenerWD - Before find element-->By.id: price
+22:28:54.811  INFO  manager.ListenerWD - After find element-->By.id: price
+22:28:54.958  INFO  manager.ListenerWD - Before find element-->By.id: about
+22:28:54.983  INFO  manager.ListenerWD - After find element-->By.id: about
+22:28:55.131  INFO  manager.ListenerWD - Before find element-->By.id: photos
+22:28:55.160  INFO  manager.ListenerWD - After find element-->By.id: photos
+22:28:55.233  INFO  manager.ListenerWD - Before find element-->By.xpath: //button[contains(@type,'submit')]
+22:28:55.261  INFO  manager.ListenerWD - After find element-->By.xpath: //button[contains(@type,'submit')]
+22:28:55.322  INFO  manager.ListenerWD - Before find element-->By.cssSelector: div.dialog-container h1
+22:28:55.844  INFO  manager.ListenerWD - After find element-->By.cssSelector: div.dialog-container h1
+22:28:55.909  INFO  tests.TestBase - Test 1 stopped with data: Car(location=Haifa, Israel, manufacture=bmw, model=W154, year=2020, fuel=Petrol, seats=4, clasS=C, carRegNumber=555-66-1644, price=65, about=very nice car)
+22:28:55.923  INFO  tests.TestBase - The name of starts method is -->  loginSuccess
+22:28:55.924  INFO  manager.ListenerWD - Before find elements-->By.xpath: //a[text()=' Logout ']
+22:28:55.965  INFO  manager.ListenerWD - After find elements-->By.xpath: //a[text()=' Logout ']
+22:28:55.968  INFO  manager.ListenerWD - List size-->1
+22:28:55.968  INFO  manager.ListenerWD - Before find element-->By.cssSelector: div.header a:nth-child(5)
+22:28:56.016  INFO  manager.ListenerWD - After find element-->By.cssSelector: div.header a:nth-child(5)
+22:29:01.072  INFO  manager.ListenerWD - 'Test ends with error'
+22:29:01.073  INFO  manager.ListenerWD - *****************************************
+22:29:01.074  INFO  manager.ListenerWD - Method method click
+22:29:01.074  INFO  manager.ListenerWD - *****************************************
+22:29:01.077  INFO  manager.ListenerWD - Invocation Target Exceptionorg.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d4cbc91c92ad72391de58f379e1479d4, clickElement {id=e562dada-c86d-4292-9af0-655568ccc71b}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62896}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62896/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (d4cbc91c92ad72391de58f379e1479d4)] -> css selector: div.header a:nth-child(5)]
+Session ID: d4cbc91c92ad72391de58f379e1479d4
+22:29:01.078  INFO  manager.ListenerWD - *****************************************
+22:29:01.078  INFO  manager.ListenerWD - Object target[[ChromeDriver: chrome on WINDOWS (d4cbc91c92ad72391de58f379e1479d4)] -> css selector: div.header a:nth-child(5)]
+22:29:01.078  INFO  manager.ListenerWD - *****************************************
+22:29:01.138  INFO  tests.TestBase - The name of starts method is -->  registrationSuccess
+22:29:01.141  INFO  manager.ListenerWD - Before find elements-->By.xpath: //a[text()=' Logout ']
+22:29:01.198  INFO  manager.ListenerWD - After find elements-->By.xpath: //a[text()=' Logout ']
+22:29:01.199  INFO  manager.ListenerWD - List size-->1
+22:29:01.199  INFO  manager.ListenerWD - Before find element-->By.cssSelector: div.header a:nth-child(5)
+22:29:01.224  INFO  manager.ListenerWD - After find element-->By.cssSelector: div.header a:nth-child(5)
+22:29:06.287  INFO  manager.ListenerWD - 'Test ends with error'
+22:29:06.288  INFO  manager.ListenerWD - *****************************************
+22:29:06.289  INFO  manager.ListenerWD - Method method click
+22:29:06.289  INFO  manager.ListenerWD - *****************************************
+22:29:06.290  INFO  manager.ListenerWD - Invocation Target Exceptionorg.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d4cbc91c92ad72391de58f379e1479d4, clickElement {id=e562dada-c86d-4292-9af0-655568ccc71b}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62896}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62896/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (d4cbc91c92ad72391de58f379e1479d4)] -> css selector: div.header a:nth-child(5)]
+Session ID: d4cbc91c92ad72391de58f379e1479d4
+22:29:06.292  INFO  manager.ListenerWD - *****************************************
+22:29:06.293  INFO  manager.ListenerWD - Object target[[ChromeDriver: chrome on WINDOWS (d4cbc91c92ad72391de58f379e1479d4)] -> css selector: div.header a:nth-child(5)]
+22:29:06.294  INFO  manager.ListenerWD - *****************************************

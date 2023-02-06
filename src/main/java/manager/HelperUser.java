@@ -2,18 +2,21 @@ package manager;
 
 
 import model.User;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.*;
+import model.UserLombok;
+
+
 import org.openqa.selenium.interactions.Actions;
 
 public class HelperUser extends HelperBase {
     public HelperUser(WebDriver wd) {
+
         super(wd);
     }
 
 
     public void openFormLogin() {
+
         click(By.xpath("//a[text()=' Log in ']"));
     }
 
@@ -27,12 +30,13 @@ public class HelperUser extends HelperBase {
         // type(By.id("email"), user.getEmail());
         type(By.id("password"), user.getPassword());
     }
-
-    public void submit() {
-        click(By.xpath("//button[contains(@type,'submit')]")); //button Yalla
-        // click(By.xpath("//button[@type='submit']"));
-
+    public void fillLoginFormLombok(UserLombok user) {
+        type(By.xpath("//input[@type='email']"), user.getEmail());
+        // type(By.id("email"), user.getEmail());
+        type(By.id("password"), user.getPassword());
     }
+
+
 
     public String getMessage() {
 
@@ -46,13 +50,13 @@ public class HelperUser extends HelperBase {
     }
 
     public boolean isLogged() {
-        //return isElementPresent(By.xpath("//button[text()=' Logout ']"));
-        return isElementPresent(By.cssSelector("div.header a:nth-child(5)"));
+        return isElementPresent(By.xpath("//a[text()=' Logout ']"));
+       // return isElementPresent(By.cssSelector("div.header a:nth-child(5)"));
     }
 
     public void logout() {
-        // click(By.xpath("//button[text()=' Logout ']"));
-        click(By.cssSelector("div.header a:nth-child(5)"));
+         click(By.xpath("//a[text()=' Logout ']"));
+       // click(By.cssSelector("div.header a:nth-child(5)"));
     }
 
     public String getErrorText() {
@@ -74,21 +78,47 @@ public class HelperUser extends HelperBase {
         type(By.id("email"), user.getEmail());
         type(By.id("password"), user.getPassword());
     }
+    public void fillRegistrationFormUserLombok(UserLombok user){
+        type(By.cssSelector("#name"), user.getName());
+        type(By.id("lastName"), user.getLastName());
+        type(By.id("email"), user.getEmail());
+        type(By.id("password"),user.getPassword());
+    }
 
     public void checkPolicy() {
         click(By.xpath("//label[@class='checkbox-label terms-label']"));
 
     }
 
-    public String wrongMassegeByEmailRegistration(){
+    public void checkPolicyXY() {
+        Dimension size = wd.manage().window().getSize();
+        size.getHeight();
+        size.getWidth();
+
+        WebElement label = wd.findElement(By.xpath("//label[@class='checkbox-label terms-label']"));
+        Rectangle rect = label.getRect();
+        int xOffset = rect.getWidth()/2;
+        Actions actions = new Actions(wd);
+
+        actions.moveToElement(label,-xOffset,0).click().release().perform();
+
+    }
+    public void checkPolicyJS() {
+        JavascriptExecutor js  = (JavascriptExecutor) wd;
+        js.executeScript("document.querySelector('#terms-of-use').checked=true;");
+
+    }
+
+    public String wrongMassegeByEmailRegistration() {
         return wd.findElement(By.xpath("//div[text()='Wrong email format']")).getText();
     }
 
     public String wrongMassegeByPasswordRegistration1() {
         return wd.findElement(By.xpath("//div[text()='Password must contain minimum 8 symbols']")).getText();
     }
-    public String wrongMassegeWithoutName(){
-        return wd.findElement(By.xpath("//div[text()=' Name is required ']")).getText();
+
+    public String wrongMassegeWithoutName() {
+        return wd.findElement(By.xpath("//div[@class='error']")).getText();
     }
 
     public void clickByName() {
@@ -97,5 +127,12 @@ public class HelperUser extends HelperBase {
 
     public String wrongMassegeSpaceName() {
         return wd.findElement(By.xpath("//h2[@class='message']")).getText();
+    }
+
+    public void login(User user) {
+        openFormLogin();
+        fillLoginForm(user);
+        submit();
+        closeDialogContainer();
     }
 }
